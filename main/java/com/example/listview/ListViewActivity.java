@@ -29,7 +29,7 @@ public class ListViewActivity extends AppCompatActivity {
 
         MusicScales musicScales = new MusicScales();
 
-        String[] interval = {"WHWWWWH","HWWWWHW","WWWWHWH","WWWHWHW","WWHWHWW","WHWHWWW","HWHWWWW"};
+        String[] interval = {"WWHWWWH","HWWWWHW","WWWWHWH","WWWHWHW","WWHWHWW","WHWHWWW","HWHWWWW"};
         //String[] scale = {"mi Ma7 Melodic minor scale (mm)","mi7 Dorian b2 mm scale","Ma7#5 Lydian augmented mm scale",
          //       "7 Lydian dom./Acoustic mm scale","7 Aeolian dom. mm scale","mi7b5 Half dim. mm scale","7 Altered mm scale"};
 

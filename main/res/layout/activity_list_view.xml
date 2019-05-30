@@ -7,7 +7,7 @@
         android:id="@+id/listViewExample"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:divider="@android:color/holo_green_light"
+        android:divider="@android:color/holo_purple"
         android:dividerHeight="5dp"
         android:clickable="true"
         android:choiceMode="singleChoice"
@@ -25,7 +25,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:textSize="46sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/background_dark"/>
 
         <TextView
             android:id="@+id/scaleDesc"
@@ -34,7 +36,9 @@
             android:layout_alignParentBottom="true"
             android:layout_below="@id/intervalsDesc"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"/>
 
     </RelativeLayout>
 
